@@ -1,8 +1,9 @@
 COPYING
-INSTALL
+Gemfile
+Gemfile.lock
 lib/trie.rb
 MANIFEST
-README
-setup.rb
+README.md
+Rakefile
 test/tests.rb
 trie.gemspec
