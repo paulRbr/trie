@@ -15,11 +15,11 @@
 # == License
 # GNU GPL; see COPYING
 
-require 'test/unit'
+require 'minitest/autorun'
 require 'trie'
 
 # Unit tests for the Trie class.
-class TestTrie < Test::Unit::TestCase
+class TestTrie < Minitest::Test
   # Test a compressed key with a single value at the root.
   def test_find_compressed_key_single_value_at_root
     t = Trie.new.insert('abc', 1)

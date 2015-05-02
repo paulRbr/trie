@@ -13,4 +13,7 @@ SPEC = Gem::Specification.new do |s|
   s.autorequire   = "trie"
   s.test_file     = "test/tests.rb"
   s.has_rdoc      = true
+
+  s.add_development_dependency 'minitest'
+  s.add_development_dependency 'rake'
 end
